@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marquise's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <div id="background"></div>
+
+    <main id="app">
+
+      <!-- THE IPOD -->
+      <div id="ipod">
+
+        <!-- SCREEN -->
+        <div id="screen-bezel">
+          <div id="screen">
+            <div id="screen-header">
+              <span id="screen-title">Portfolio</span>
+              <span id="battery">▐▐▐▌▌ 🔋</span>
+            </div>
+            <ul id="menu-list">
+              <li class="menu-item" data-page="home">⌂ Home</li>
+              <li class="menu-item" data-page="about">♪ About</li>
+              <li class="menu-item" data-page="projects">◆ Projects</li>
+              <li class="menu-item" data-page="experience">★ Experience</li>
+              <li class="menu-item" data-page="contact">✉ Contact</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CLICK WHEEL -->
+        <div id="wheel-wrap">
+          <div id="wheel">
+            <span class="wheel-btn" id="btn-menu">Menu</span>
+            <span class="wheel-btn" id="btn-forward">▶▶</span>
+            <span class="wheel-btn" id="btn-play">▶II</span>
+            <span class="wheel-btn" id="btn-back">◀◀</span>
+            <div id="center-btn">SELECT</div>
+          </div>
+        </div>
+
+      </div>
+      <!-- END IPOD -->
+
+      <!-- CONTENT PAGES (hidden until selected) -->
+      <div id="pages">
+
+        <div class="page active" id="page-home">
+          <h1>Hey, I'm Marquise.</h1>
+          <p>CS student at NJIT. Incoming Software Developer Intern at the NBPA. I build things and care about doing them well.</p>
+          <p>Use the wheel to navigate.</p>
+        </div>
+
+        <div class="page" id="page-about">
+          <h1>About me</h1>
+          <p>I'm a Computer Science student at NJIT graduating May 2027. Outside of code I'm into basketball, anime, and making music.</p>
+        </div>
+
+        <div class="page" id="page-projects">
+          <h1>Projects</h1>
+          <p>Stock Market Dashboard, Java Sales Parser, Bash Automation Scripts — more coming soon.</p>
+        </div>
+
+        <div class="page" id="page-experience">
+          <h1>Experience</h1>
+          <p>Software Developer Intern — NBPA, Summer 2026, New York City.</p>
+        </div>
+
+        <div class="page" id="page-contact">
+          <h1>Let's talk</h1>
+          <p>mp2274@njit.edu</p>
+        </div>
+
+      </div>
+      <!-- END PAGES -->
+
+    </main>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
