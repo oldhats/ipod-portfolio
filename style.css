@@ -1,3 +1,30 @@
+*{
+    margin: 0em;
+    padding: 0em;
+}
+
 body{
     background-color: #1c1410;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#ipod {
+    width: 250px;
+    height: 400px;
+    background-color: #1f1f1f;
+    border: 3px solid #2e2e2e;
+    border-radius: 20px;
+    box-shadow: 
+    0 0 0 1px #111,
+    0 30px 60px rgba(0,0,0,0.6)
+    ;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
